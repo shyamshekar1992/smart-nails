@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <MenuBar />
         <Routes>
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/contactus" element={<ContactForm />} />
         </Routes>
       </div>

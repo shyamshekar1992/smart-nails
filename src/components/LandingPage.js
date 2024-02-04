@@ -9,7 +9,6 @@ import {
   CardContent,
 } from '@mui/material';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import nails from '../nails.mp4';
 
 const LandingPage = () => {
   return (
@@ -40,10 +39,14 @@ const LandingPage = () => {
       <Typography variant="h4" align="center" gutterBottom>
         Watch the SmartNails in Action
       </Typography>
-      <video width="100%" controls>
-        <source src={nails} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <iframe
+        width="100%"
+        height="400"
+        src="https://www.youtube.com/embed/Tz6GtEipWb0"
+        title="SmartNails in Action"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>        Your browser does not support the video tag.
       {/* Embed promotional video or link here */}
       <Link to="/contactus" style={{ textDecoration: "none", color: "inherit" }}>
 
