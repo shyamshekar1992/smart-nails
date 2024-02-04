@@ -12,6 +12,7 @@ function App() {
         <MenuBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/contactus" element={<ContactForm />} />
         </Routes>
       </div>
