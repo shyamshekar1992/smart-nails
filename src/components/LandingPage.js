@@ -46,8 +46,7 @@ const LandingPage = () => {
         title="SmartNails in Action"
         frameborder="0"
         allowfullscreen
-      ></iframe>        Your browser does not support the video tag.
-      {/* Embed promotional video or link here */}
+      ></iframe>
       <Link to="/contactus" style={{ textDecoration: "none", color: "inherit" }}>
 
       <Button variant="contained" color="primary" size="large" fullWidth>
