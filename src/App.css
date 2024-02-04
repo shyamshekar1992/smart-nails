@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+/* Footer.css */
+.footer {
+  background-color: #1976d2;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  color:"white";
+}
